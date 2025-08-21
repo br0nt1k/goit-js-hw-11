@@ -4,13 +4,13 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
-import getImagesByQuery from './js/pixabay-api';
+import getImagesByQuery from './js/pixabay-api.js';
 import {
   createGallery,
   clearGallery,
   showLoader,
   hideLoader,
-} from './js/render-functions';
+} from './js/render-functions.js';
 
 document.querySelector('.span.loader').classList.remove('loader');
 
